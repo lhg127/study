@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+homepage  --->contacts   :进入通讯录页
+contacts  --->editor     :进入管理成员页
+editor    --->editor_member  :进入编辑成员页
+editor_member  ---->editor   :返回管理成员页
+@enduml
